@@ -1,0 +1,148 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.mainPage {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: px 250px;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 20px;
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "sidebar content"
+}
+
+.gridItem1 {
+    grid-area: sidebar;
+}
+
+.gridItem2 {
+    grid-area: content;
+}
+
+.gridItem3 {
+    grid-area: content;
+}
+/*
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 960px;
+    align-items: center;
+
+}
+*/
+
+.profileBanner{
+    border-bottom: 100px;
+    border-top: 100px;
+    max-width: 750px;
+    position: relative;
+}
+
+#profilePicture {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    overflow: hidden;
+    clip-path: circle();
+    border-radius: 50%;
+    float: left;
+}
+
+#profileText {
+   float: left;
+}
+
+.profileInfo {
+    margin-top: 100px;
+    position: relative;
+    max-width: 750px;
+}
+
+#aboutMe {
+    margin-bottom: 40px;
+}
+    
+#skills {
+    margin-bottom: 40px;
+}
+
+#projects {
+    margin-bottom: 40px;
+}
+    
+#education {
+    margin-bottom: 40px;
+}
+
+#workExperience {
+    margin-bottom: 40px;
+}
+
+#contact {
+    margin-bottom: 40px;
+}
+
+#leftTitle {
+    width: 50%;
+    float: left;
+}
+
+#rightItem {
+    width: 25%;
+}
+
+#sam-img {
+   width: 500px;
+   height: 540px;
+}
+
+#dashboard {
+    width: 800px;
+    height: 370px;
+}
+
+#login {
+    width: 800px;
+    height: 435px;
+}
+
+#marking {
+    width: 800px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+
+}
+
+a:active {
+    color: #e8e4e4;
+}
